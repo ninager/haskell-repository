@@ -8,3 +8,6 @@ data Ciudad = Ciudad {
 
 haskellandia :: Ciudad
 haskellandia = Ciudad "Haskellandia" 1930 ["Parque Haskell", "Campo Feliz"]
+
+quitarAtracciones :: Ciudad -> Ciudad
+quitarAtracciones ciudad = ciudad {atracciones = []}
